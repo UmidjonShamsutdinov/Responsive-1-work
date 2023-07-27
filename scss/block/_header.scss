@@ -1,0 +1,89 @@
+.nav__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 0;
+    align-items: center;
+    .bi-list{
+        display: none;
+    }
+    .nav__content{
+        display: flex;
+        gap: 0 33px;
+        .nav__item{
+            text-decoration: none;
+            color: #83888F;
+            font-family: "Barlow", sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 15px;
+            letter-spacing: 0.923px;
+            text-transform: uppercase;
+            &:hover{
+                color: #333D4B;
+                font-family: "Barlow", sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: 0.923px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+// HERO SECTION START
+
+
+
+.hero{
+    padding: 116px 0 116px 85px;
+    background-image: url("../../images/hero_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    h1{
+        color: #FEFCF7;
+        font-family: "Fraunces", sans-serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+        max-width: 493px;
+    }
+    p{
+        color: #FEFCF7;
+        font-family: "Barlow", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        max-width: 445px;
+        margin-top: 32px;
+        margin-bottom: 56px;
+    }
+    .hero__btn{
+        padding: 16px 31px;
+        text-decoration: none;
+        background-color: rgba(102, 210, 207, 1);
+        border-radius: 6px;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: "Fraunces", sans-serif 9pt;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+    }
+}
+
+

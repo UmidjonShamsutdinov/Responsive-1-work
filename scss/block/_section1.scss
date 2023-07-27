@@ -1,0 +1,40 @@
+.section1{
+    margin-top: 136px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        max-width: 100%;
+        align-self: center;
+    }
+    .cards{
+        margin-top: -70px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        .card{
+            .card__content{
+                h3{
+                    margin: 71.5px 0 24.5px 0;
+                    color: #333D4B;
+                    text-align: center;
+                    font-family: Fraunces;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 32px;
+                }
+                p{
+                    color: #333D4B;
+                    font-family: Barlow;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                    max-width: 282px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
